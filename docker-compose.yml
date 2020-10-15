@@ -1,4 +1,4 @@
-version: '1'
+version: '3'
 services:
   selenium-hub:
     image: aerokube/selenoid:1.10.0

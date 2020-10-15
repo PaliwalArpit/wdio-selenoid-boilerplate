@@ -46,7 +46,7 @@ exports.config = {
       //browserVersion: '84.0',
       'selenoid:options': {
           enableVNC: true,
-          enableVideo: false 
+          enableVideo: true 
       }    
       // 'goog:chromeOptions': {
       //prefs: {

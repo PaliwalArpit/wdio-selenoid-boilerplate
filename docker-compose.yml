@@ -1,19 +1,9 @@
-version: '3'
+version: '1'
 services:
   selenium-hub:
-    image: selenium/hub
-    container_name: selenium-hub
+    image: aerokube/selenoid:1.10.0
+    container_name: selenoid-image
     ports:
-      - "4445:4445"
+      - "4445:4444"
     
-
-  firefox:
-    image: selenium/node-firefox-debug
-    volumes:
-      - /dev/shm:/dev/shm
-    depends_on:
-      - selenium-hub
-    environment:
-      - HUB_HOST=selenium-hub
-      - HUB_PORT=4445
    

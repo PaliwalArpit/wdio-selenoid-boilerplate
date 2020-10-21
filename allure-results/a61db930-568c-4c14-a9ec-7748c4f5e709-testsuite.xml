@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603291342278' stop='1603291742289'>
+    <name>webdriver.io page</name>
+    <title>webdriver.io page</title>
+    <test-cases>
+        <test-case start='1603291342278' status='broken' stop='1603291742288'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 400000ms exceeded. The execution in the test "webdriver.io page should have the right title" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/home/apaliwal/test-trove/webdriverio-test/test-specs/selenoid/basic.specs.js)</message>
+                <stack-trace>Error: Timeout of 400000ms exceeded. The execution in the test "webdriver.io page should have the right title" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/home/apaliwal/test-trove/webdriverio-test/test-specs/selenoid/basic.specs.js)
+                    at Test.Runnable._timeoutError (/home/apaliwal/test-trove/webdriverio-test/node_modules/@wdio/mocha-framework/node_modules/mocha/lib/runnable.js:432:10)
+                    at Timeout.&lt;anonymous> (/home/apaliwal/test-trove/webdriverio-test/node_modules/@wdio/mocha-framework/node_modules/mocha/lib/runnable.js:244:24)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -7,7 +7,7 @@ exports.config = {
   // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
   // on a remote machine).
   runner: "local",
-  //
+  //  
   // ==================
   // Specify Test Files
   // ==================
@@ -17,19 +17,10 @@ exports.config = {
   // directory is where your package.json resides, so `wdio` will be called from there.
   //
   specs: [
-    //  "./test/test-specs/pcm-rewrite/Troubleshoot/*.specs.js",
-     // "./test/test-specs/pcm-rewrite/Case_Details/*.specs.js",
-    //   "./test/test-specs/pcm-rewrite/Manage-Page-Specs/*.specs.js",
-    //    "./test/test-specs/pcm-rewrite/Upload_DownloadFile/*.specs.js",
-    //     "./test/test-specs/pcm-rewrite/Case-List-Specs/*.specs.js",
-    //   './test/test-specs/pcm-rewrite/SecuredUsers/*.specs.js',
-    //  './test/test-specs/pcm-rewrite/Sanity-Specs/*.specs.js'
     './test-specs/selenoid/*.specs.js'
   ],
   exclude: [
-     //   "./test/test-specs/pcm-rewrite/Sanity-Specs/externalInternalTest.specs.js",
-     //  './test/test-specs/pcm-rewrite/Case_Details/pinUnpin.specs.js',
-    //'./test/test-specs/pcm-rewrite/SecuredUsers/*'
+   
   ],
   //===================================================
   //=============Local configurations==================
@@ -43,7 +34,6 @@ exports.config = {
       maxInstances: 8,
       browserName: "chrome",
       acceptInsecureCerts: true,
-      //browserVersion: '84.0',
       'selenoid:options': {
           enableVNC: true,
           enableVideo: true 
@@ -78,10 +68,6 @@ exports.config = {
   //     p: ['4444:4444', '5900:5900'],
   //     shmSize: '2g'
   // },
-
-  //Patterns to exclude.
-  //exclude: ['./test/test-specs/**/externalSecureSupportUser.specs.js',
-  //'./test/test-specs/**/externalNonOrgAdminwithNoSupportEntitlement.specs.js'],
 
   // options
   //chromeDriverArgs: ['--port=9515', '--url-base=\'/\''], // default for ChromeDriver

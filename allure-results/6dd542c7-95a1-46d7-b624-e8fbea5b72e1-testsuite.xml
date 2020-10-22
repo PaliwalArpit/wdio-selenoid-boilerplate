@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603291342268' stop='1603291358214'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603348686180' stop='1603348694952'>
     <name>My Login application</name>
     <title>My Login application</title>
     <test-cases>
-        <test-case start='1603291342269' status='passed' stop='1603291358213'>
+        <test-case start='1603348686181' status='passed' stop='1603348694949'>
             <name>should login with valid credentials</name>
             <title>should login with valid credentials</title>
             <labels>

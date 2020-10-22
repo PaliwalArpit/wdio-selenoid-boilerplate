@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603290249517' stop='1603290285034'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603348406328' stop='1603348416846'>
     <name>My Login application</name>
     <title>My Login application</title>
     <test-cases>
-        <test-case start='1603290249518' status='passed' stop='1603290285033'>
+        <test-case start='1603348406329' status='passed' stop='1603348416844'>
             <name>should login with valid credentials</name>
             <title>should login with valid credentials</title>
             <labels>
@@ -12,7 +12,7 @@
                 <label name='thread' value='0-1'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='firefox-5.8.14-200.fc32.x86_64'/>
+                <parameter kind='argument' name='browser' value='chrome'/>
             </parameters>
             <steps/>
             <attachments/>
